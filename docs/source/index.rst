@@ -1,13 +1,8 @@
-Welcome to Lumache's documentation!
+Python coding standards
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+This training is intended to instruct you on how to structure your 
+Python code and what coding standards we implement.
 
 .. note::
 
@@ -18,5 +13,8 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   project-structure
+   database-connection
+   functions
+   global-variables
+   
