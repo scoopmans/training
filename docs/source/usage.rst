@@ -1,4 +1,4 @@
-Usage
+Starting a project
 =====
 
 .. _installation:
