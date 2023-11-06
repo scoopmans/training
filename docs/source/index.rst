@@ -13,8 +13,8 @@ Contents
 
 .. toctree::
 
+   getting-started
    project-structure
-   database-connection
    functions
    global-variables
    
