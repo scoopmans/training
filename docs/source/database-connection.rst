@@ -8,11 +8,24 @@ Installation
 ------------
 Set-up your virtual environment
 ............
+Go to your terminal, and type the following:
+
+.. code-block:: console
+   source create_virt_env.sh <name_of_your_env>
+
+If you want to install an additional package, you have to activate your virtual environment in your terminal in the following manner:
+
+.. code-block:: console
+   source ~/.virtualenvs/<name_of_your_env>/bin/activate
+   pip install <name_of_package>
+
+Install necessary packages
+............
 To use ``pyodbc``, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install pyodbc
+   (name_of_your_venv) $ pip install pyodbc
 
 Setting the connection
 ----------------
