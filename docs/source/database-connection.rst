@@ -1,11 +1,13 @@
 Setting a database connection
 =====
+To connect to our databases we use the Python package ``pyodbc``, which will be able to access our existing  :ref:`odbc-ref` ``.odbc.ini``.
 
 .. _installation:
 
 Installation
 ------------
-
+Set-up your virtual environment
+............
 To use ``pyodbc``, first install it using pip:
 
 .. code-block:: console
@@ -34,3 +36,8 @@ For example:
 
 Retrieving data
 ----------------
+
+.. _odbc-ref
+Generating your ODBC.ini
+----------------
+To get started with connecting to our databases, you need to generate an ``.odbc.ini`` file in your home folder. After you have created that 
